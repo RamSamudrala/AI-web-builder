@@ -1,0 +1,27 @@
+{%load static%}
+<html>
+    <head>
+        <title> Signup Page</title>
+        <link href="{%static 'css/signup.css'%}" rel="stylesheet"/>
+        <body>
+          <center>
+            <h1> DEV-GPT</h1>
+            <h3> Signup here🥹</h3>
+            <div class="signup-container">
+            <form method="post" class="signup-form">
+               {% csrf_token %}
+                <h2>Sign Up</h2>
+                <input type="text" placeholder="first Name" name="firstname" required /><br></br>
+                <input type="text" placeholder="last Name" name="lastname" required /><br></br>
+                <input type="email" placeholder="Email" name="email" required /><br></br>
+                <input type="password" placeholder="Password" name="password" required /><br></br>
+                <input type="text" placeholder="COUNTRY" name="country" required /><br></br>
+                <button type="submit">Sign Up</button>
+                <button type="reset">clear</button>
+            </form>
+            </div>
+
+          </center>
+        </body>
+    </head>
+</html>

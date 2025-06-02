@@ -1,0 +1,7 @@
+body
+{  background: radial-gradient(circle at center,rgb(2, 109, 18),black);}
+h1{ color: aliceblue; margin-top: 200px;font-size: 50px;}
+h3{ color: aliceblue;}
+p{ color: aliceblue;}
+button
+{height: auto;width: auto;font-size: medium;border-radius: 5px; }
