@@ -1,17 +1,37 @@
-{%load static%}
+{% load static %}
 <html>
-    <head>
-        <title> DASHBOARD </title>
-        <link href="{% static 'css/dashboard.css'%}" rel="stylesheet"/>
-    </head>
-    <body>
-            <nav> 
-            <a href="{% url  'login' %}" >Logout </a>
+<head>
+    <title>DEV-GPT Dashboard</title>
+    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar (30%) -->
+        <div class="sidebar">
+            <h2>DevGPT Menu</h2>
+            <nav>
+                <a href="#">User Dashboard</a>
+                <a href="#">Account Details</a>
+                <a href="#">Prompt History</a>
+                <a href="#">Search</a>
+                <a href="#">Help Center</a>
+                <a href="{% url 'logout' %}">Logout</a>
             </nav>
-            <center>
-                <h1> DEV-GPT</h1>
-                <h3> Welcome to DASHBOARD</h3>
-            </center>        
-    </body>
+        </div>
 
+        <!-- Main Chat Area (70%) -->
+        <div class="chat-area">
+            <h1>DEV-GPT</h1>
+            <div class="messages" id="messages"></div>
+            <div class="prompt-bar">
+               <form action="{% url 'message' %}" method="post">
+                    {% csrf_token %}
+                    <input type="text" id="promptInput" placeholder="Type your message..." />
+                    <input type="submit" id="send8tn" value="Send"/>
+                    <input type="reset" value="Refresh"/>
+               </form>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

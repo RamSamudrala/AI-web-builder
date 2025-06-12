@@ -84,6 +84,11 @@ DATABASES = {
     }
 }
 
+#set the Session Engine
+SESSION_ENGINE='django.contrib.sessions.backends.db'
+
+#set the session expiry time
+SESSION_COOKIE_AGE=3600 #(seconds)
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators

@@ -24,6 +24,7 @@ urlpatterns = [
     path('login',v1.login,name='login'),
     path('',v1.home,name='home'),
     path('logout',v1.logout,name='logout'),
+    path('message/',v1.message,name='message'),
    
 
 ]
