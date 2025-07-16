@@ -45,6 +45,29 @@ Generate full-stack project code from natural language prompts — instantly. Wh
 
 <img width="1906" height="972" alt="DEV_GPT page" src="https://github.com/user-attachments/assets/228b8106-669f-4c84-81a8-056212d59b99" />
 
+🧠 Model Info
+Model: deepseek-coder-6.7B-instruct
+Capabilities:
+
+Multi-language support
+
+Instruction-tuned for better contextual coding
+
+Ideal for structured and semi-structured code generation
+
+🙌 Contributions
+Pull requests are welcome! If you have ideas for features, improvements, or new model integrations, open an issue or PR.
+
+📄 License
+This project is licensed under the MIT License.
+
+🔗 Connect
+DeepSeek Coder
+
+Streamlit Docs
+
+HuggingFace Transformers
+
 
 ## 📦 Installation
 
