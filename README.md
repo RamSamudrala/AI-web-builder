@@ -4,9 +4,6 @@
 
 Generate full-stack project code from natural language prompts — instantly. Whether it's a Flask backend, a React component, or a SQL schema, this app automates boilerplate so you can focus on what matters: building.
 
----
-<img width="1919" height="1038" alt="DEV_GPT prompt output" src="https://github.com/user-attachments/assets/30ede72b-2938-440d-9290-8621ee131cfa" />
-
 ## 🚀 Features
 
 - 🧾 **Natural Language to Code**: Auto-generate project code (Python, JavaScript, HTML, SQL, etc.) from simple prompts.
@@ -16,6 +13,8 @@ Generate full-stack project code from natural language prompts — instantly. Wh
 - 🎨 **Syntax Highlighting**: Clean, readable code output with syntax highlighting.
 - 📦 **Download Support**: Easily export generated code.
 - 🌍 **Multi-language Output**: Supports Python, JS, HTML, SQL, and more.
+  
+<img width="1906" height="972" alt="DEV_GPT page" src="https://github.com/user-attachments/assets/228b8106-669f-4c84-81a8-056212d59b99" />
 
 ---
 
@@ -43,7 +42,8 @@ Generate full-stack project code from natural language prompts — instantly. Wh
 
 ---
 
-<img width="1906" height="972" alt="DEV_GPT page" src="https://github.com/user-attachments/assets/228b8106-669f-4c84-81a8-056212d59b99" />
+<img width="1919" height="1038" alt="DEV_GPT prompt output" src="https://github.com/user-attachments/assets/30ede72b-2938-440d-9290-8621ee131cfa" />
+
 
 🧠 Model Info
 Model: deepseek-coder-6.7B-instruct
